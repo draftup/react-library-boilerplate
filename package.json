@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "build": "webpack",
-    "style:check": "prettier --check \"**/*.{ts,tsx,md,json}\"",
-    "style:write": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "style:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md,json}\"",
+    "style:write": "prettier --write \"**/*.{js,jsx,ts,tsx,md,json}\"",
     "commitlint": "commitlint from=HEAD"
   },
   "repository": {
